@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 
 
 
-
 class HornedBeasts extends React.Component{
 
     constructor(props){
@@ -45,15 +44,3 @@ class HornedBeasts extends React.Component{
 
 export default HornedBeasts;
 
-
-
-
-
-// return(
-//   <div>
-//       <h2>{this.props.title}</h2>
-//       <img onClick ={this.UserClick} src={this.props.image_url} alt={this.props.title} title={this.props.title}/> 
-//       <p>{this.props.description}</p>
-//       <p>{this.state.vote}</p>
-//   </div>
-// )
