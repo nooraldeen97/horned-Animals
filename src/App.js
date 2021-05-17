@@ -5,19 +5,17 @@ import Main from './components/Main';
 
 
 class App extends React.Component{
-
-render(){
-       return(
-         <div>
-       <Header/>
-       <Main/>
-       <Footer/>
-         </div>
-
-       )
-
-}
+  render(){
+    return(
+      <>
+      <Header/>
+      <Main/>
+      <Footer/>
+      </>
+    )
+  }
 
 }
+
 
 export default App;

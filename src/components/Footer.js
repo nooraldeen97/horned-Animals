@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-class Footer extends React.Component{
 
-    render(){
-        return(
-            
-            <p>author name : Nooraldeen khalaf</p>
-        )
-    }
+class Footer extends React.Component{
+  render(){
+    return(
+        <p>auother name : Nooraldeen khalaf</p>
+
+    )
+  }
 
 }
 

@@ -3,16 +3,14 @@ import React from 'react';
 
 
 class Header extends React.Component{
-
-
-render(){
+  render(){
     return(
-        <h1> Gallery of Beasts </h1>
+        <h1>Gallery Of Beasts</h1>
 
     )
+  }
 }
 
 
-}
 
 export default Header;
