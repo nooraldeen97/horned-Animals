@@ -19,12 +19,17 @@ class HornedBeasts extends React.Component{
         vote : this.state.vote +1 ,
       })
     }
+    handleClick=()=>{
+     this.props.OurSelected(this.props.title)
+     
+    }
+
 
   render(){
     return(
-      <div className='cards'>
-    <Card>
-    <Card.Img variant="top" onClick ={this.UserClick} src={this.props.image_url} itle={this.props.title} />
+      <div className='cards' onClick={this.handleClick}>
+    <Card >
+    <Card.Img variant="top" onClick ={this.UserClick} src={this.props.image_url} title={this.props.title}  />
     <Card.Body>
       <Card.Title>{this.props.title}</Card.Title>
       <Card.Text>
