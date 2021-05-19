@@ -3,8 +3,6 @@ import data from './data.json';
 import HornedBeasts from './HornedBeast';
 
 
-
-
 class Main extends React.Component{
   render(){
     return(
@@ -29,4 +27,5 @@ class Main extends React.Component{
 
 
 export default Main;
+
 
