@@ -1,4 +1,5 @@
 import React from 'react';
+import data from './data.json';
 import HornedBeasts from './HornedBeast';
 
 
@@ -6,7 +7,7 @@ class Main extends React.Component{
   render(){
     return(
         <>
-        {this.props.hornedData.map((item,index)=>{
+        {data.map((item,index)=>{
             return(
         <HornedBeasts
         title={item.title}
