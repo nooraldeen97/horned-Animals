@@ -17,7 +17,12 @@ class App extends React.Component{
     }
   }
 
-
+  filterCards=(horns)=>{
+  this.setState({
+    hornedData:horns
+  })
+  
+}
 
 
 
@@ -56,7 +61,7 @@ class App extends React.Component{
       <Main
        hornedData={this.state.hornedData}
        OurSelected={this.OurSelected}
-       
+       filterCards={this.filterCards}
       />
       <Footer/>
         <SelectedBeast
